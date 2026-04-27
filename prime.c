@@ -1,4 +1,4 @@
-/* prime.c - endless prime number generator for ELKS */
+/* prime.c - endless prime number generator */
 
 #include <stdio.h>
 
