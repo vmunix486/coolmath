@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-#define MAX_PRIMES 1024  /* adjust for memory vs speed */
+#define MAX_PRIMES 1024  /* adjust for memory vs speed. For more clarification, this is for how many prime numbers to store in RAM. */
 
 static unsigned int primes[MAX_PRIMES];
 
