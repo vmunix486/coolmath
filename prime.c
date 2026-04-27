@@ -41,7 +41,8 @@ int main()
             if (count < MAX_PRIMES)
                 primes[count++] = n;
 
-            printf("%u\n", n);
+            printf("%u\n", n); // Default, makes a new line after each number
+            // printf("%u ", n); Additional, instead of making a newline, it adds a little space after the last number, making it feel like a datastream
             fflush(stdout);
             delay();
         }
