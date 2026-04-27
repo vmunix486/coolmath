@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
         }
 
         /* print decimal point after first digit */
-        if (j == 0)
+        if (j == 1)
             printf(".");
     }
 
