@@ -18,11 +18,13 @@ If anyone wants to write any other cool math things, it would be greatly appreci
 # programs
 
  - `prime` - Computes prime numbers one after the other and prints each number to `stdio`
+ - `pi` - Computes digits of pi up to the number given, and prints number to stdio
  - more soon
 
 # known bugs
 
  - `prime` can overflow back to zero if it hits your CPU's integer limit, eg. 65535 for IA-16
+ - `pi` has a leading 0 as the first digit and not 3
 
 
 
