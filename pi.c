@@ -1,4 +1,9 @@
-/* pi_spigot.c - simple digit-by-digit pi generator (C89) */
+/* pi.c - simple pi generator (C89)
+ *
+ * Syntax: ./pi (Number) | Number is any number.
+ *
+ * NOTE: If you put a really high amount of digits, it can cause the program to lock up or run out of memory on something like ELKS. */
+ 
 
 #include <stdio.h>
 #include <stdlib.h>
