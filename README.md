@@ -1,5 +1,7 @@
 # coolmath
-Simple math functions in C89.
+Simple math functions in C89. I reccomend looking inside each file to see if there is anything to configure or any funny comments left by yours truly.
+
+If anyone wants to write any other cool math things, it would be greatly appreciated.
 
 # platforms
 
