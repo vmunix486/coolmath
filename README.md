@@ -1,4 +1,7 @@
 # coolmath
+
+<img width="854" height="480" alt="prime" src="https://github.com/user-attachments/assets/24900373-5017-4ed0-964d-2eea9385bd23" />
+
 Simple math functions in C89. I reccomend looking inside each file to see if there is anything to configure or any funny comments left by yours truly.
 
 If anyone wants to write any other cool math things, it would be greatly appreciated.
