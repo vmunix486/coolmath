@@ -10,6 +10,7 @@ If anyone wants to write any other cool math things, it would be greatly appreci
 
  - Linux x86-64
  - ELKS
+ - Linux x86 (Pentium III)
  - Any C compiler with C89 support
  - Litterally any C compiler ever made
  - If you find a C compiler that doesnt work then it's probably something wrong with you
