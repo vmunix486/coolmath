@@ -30,5 +30,6 @@ If anyone wants to write any other cool math things, it would be greatly appreci
  - (SOON) `cbrt` - Cube Root of the given number
  - (SOON) `xrt` - X root of the given number
  - (SOON) `hostnums` - Finds the default setting for different C variables. Should also find CPU bittage
+ - (SOON) `factor` - Factors of the given number
  - more soon
 
