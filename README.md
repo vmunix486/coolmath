@@ -22,9 +22,3 @@ If anyone wants to write any other cool math things, it would be greatly appreci
  - `pibench` - CPU benchmark using pi. In development.
  - more soon
 
-# known bugs
-
- - `prime` can overflow back to zero if it hits your CPU's integer limit, eg. 65535 for IA-16
-
-
-
