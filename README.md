@@ -11,6 +11,7 @@ If anyone wants to write any other cool math things, it would be greatly appreci
  - Linux x86-64
  - ELKS
  - Linux x86 (Pentium III)
+ - Windows XP with MSYS2 (Pentium M Netburst)
  - Any C compiler with C89 support
  - Litterally any C compiler ever made
  - If you find a C compiler that doesnt work then it's probably something wrong with you
@@ -20,7 +21,7 @@ If anyone wants to write any other cool math things, it would be greatly appreci
  - `prime` - Computes prime numbers one after the other
  - `pi` - Computes digits of pi up to the number given
  - `pibench` - CPU benchmark using pi. In development.
- - `pi_stream` - Prints each digit of pi for each new line there is. See github issue #3 for more info. Does not currently work, but might get adapted into shell script.
+ - `pi_stream` - Prints each digit of pi for each new line there is another digit. Bourne compatible shell script that only requires the `expr` command.
  - (SOON) `even` - Counts up even numbers
  - (SOON) `odd` - Counts up odd numbers
  - (SOON) `fibbonachi` - Computes the Fibbonachi Sequence
