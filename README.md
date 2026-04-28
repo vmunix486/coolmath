@@ -18,7 +18,8 @@ If anyone wants to write any other cool math things, it would be greatly appreci
 # programs
 
  - `prime` - Computes prime numbers one after the other and prints each number to `stdio`
- - `pi` - Computes digits of pi up to the number given, and prints number to stdio
+ - `pi` - Computes digits of pi up to the number given, and prints number to `stdio`
+ - `pibench` - CPU benchmark using pi. In development.
  - more soon
 
 # known bugs
