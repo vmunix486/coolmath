@@ -17,8 +17,17 @@ If anyone wants to write any other cool math things, it would be greatly appreci
 
 # programs
 
- - `prime` - Computes prime numbers one after the other and prints each number to `stdio`
- - `pi` - Computes digits of pi up to the number given, and prints number to `stdio`
+ - `prime` - Computes prime numbers one after the other
+ - `pi` - Computes digits of pi up to the number given
  - `pibench` - CPU benchmark using pi. In development.
+ - `pi_stream` - Prints each digit of pi for each new line there is. See github issue FIXME for more info. Does not currently work, and maybe never will.
+ - (SOON) `even` - Counts up even numbers
+ - (SOON) `odd` - Counts up odd numbers
+ - (SOON) `fibbonachi` - Computes the Fibbonachi Sequence
+ - (SOON) `goldenratio` - Computes the Golden Ratio
+ - (SOON) `sqrt` - Square root of the given number
+ - (SOON) `cbrt` - Cube Root of the given number
+ - (SOON) `xrt` - X root of the given number
+ - (SOON) `hostnums` - Finds the default setting for different C variables. Should also find CPU bittage
  - more soon
 
