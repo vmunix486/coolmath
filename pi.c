@@ -1,6 +1,6 @@
 /* pi.c - simple pi generator (C89)
  *
- * Syntax: ./pi (Number) | Number is any number.
+ * Syntax: ./pi (Number) | Number is any number greater than 0.
  *
  * NOTE: If you put a really high amount of digits, it can cause the program to lock up or run out of memory on something like ELKS. */
  
@@ -57,7 +57,9 @@ int main(int argc, char *argv[])
             predigit = 0;
             nines = 0;
         } else {
-            printf("%d", predigit);
+            if (j > 0) {
+             printf("%d", predigit);
+            }
             predigit = q;
             if (nines != 0) {
                 for (i = 0; i < nines; i++)
