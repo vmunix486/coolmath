@@ -24,7 +24,7 @@ If anyone wants to write any other cool math things, it would be greatly appreci
  - `pi_stream` - Prints each digit of pi for each new line there is another digit. Bourne compatible shell script that only requires the `expr` command.
  - `even` - Counts up even numbers
  - `odd` - Counts up odd numbers
- - (SOON) `fibbonachi` - Computes the Fibbonachi Sequence
+ - `fibbonachi` - Computes the Fibbonachi Sequence
  - (SOON) `goldenratio` - Computes the Golden Ratio
  - (SOON) `sqrt` - Square root of the given number
  - (SOON) `cbrt` - Cube Root of the given number
