@@ -3,6 +3,8 @@
  * Has two modes: an incremental benchmark and a 1-digit-at-a-time mode
  *
  * Written in C89, and does not have floating point, long long, or dynamic allocation 
+ *
+ * Syntax: ./pibench [c] | By default, pibench does the normal benchmarking, but with the c option, it does it one digit at a time until it can't no more.
  */
 
 #include <stdio.h>
