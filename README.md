@@ -20,7 +20,7 @@ If anyone wants to write any other cool math things, it would be greatly appreci
  - `prime` - Computes prime numbers one after the other
  - `pi` - Computes digits of pi up to the number given
  - `pibench` - CPU benchmark using pi. In development.
- - `pi_stream` - Prints each digit of pi for each new line there is. See github issue #3 for more info. Does not currently work, and maybe never will.
+ - `pi_stream` - Prints each digit of pi for each new line there is. See github issue #3 for more info. Does not currently work, but might get adapted into shell script.
  - (SOON) `even` - Counts up even numbers
  - (SOON) `odd` - Counts up odd numbers
  - (SOON) `fibbonachi` - Computes the Fibbonachi Sequence
