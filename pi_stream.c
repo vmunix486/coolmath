@@ -1,10 +1,10 @@
 /*
- * pi_stream.c - Streaming pi digits in C89
+ * pi_stream.c - Growing pi output
  */
 
 #include <stdio.h>
 
-#define MAX_DIGITS 2000
+#define MAX_DIGITS 1000
 
 struct spigot {
     int a[(MAX_DIGITS * 10) / 3 + 1];
@@ -13,11 +13,26 @@ struct spigot {
     int predigit;
 };
 
-void spigot_init(struct spigot *s)
+/* Output buffer */
+char outbuf[MAX_DIGITS + 10];
+int outpos = 0;
+
+/* Instead of printing, we store characters */
+void emit_char(char c)
+{
+    if (outpos < MAX_DIGITS + 9) {
+        outbuf[outpos++] = c;
+        outbuf[outpos] = '\0';
+    }
+}
+
+/* Replace putchar with emit_char */
+#define putchar emit_char
+
+void spigot_init(struct spigot *s, int digits)
 {
     int i;
-
-    s->len = (MAX_DIGITS * 10) / 3;
+    s->len = (digits * 10) / 3;
 
     for (i = 0; i < s->len; i++)
         s->a[i] = 2;
@@ -60,7 +75,7 @@ void spigot_flush(struct spigot *s)
     putchar('0' + s->predigit);
 }
 
-/* crude portable delay */
+/* crude delay */
 void delay(void)
 {
     volatile long i;
@@ -72,18 +87,32 @@ int main(void)
     struct spigot s;
     int i;
 
-    printf("Streaming pi digits:\n\n");
+    printf("Growing pi output:\n\n");
 
-    spigot_init(&s);
+    spigot_init(&s, MAX_DIGITS);
+
+    /* First digit manually */
+    outbuf[0] = '3';
+    outbuf[1] = '\0';
+    outpos = 1;
+
+    printf("%s\n", outbuf);
+
+    /* Add decimal point */
+    emit_char('.');
+    printf("%s\n", outbuf);
+
+    /* Skip first internal step */
+    spigot_next(&s);
 
     for (i = 0; i < MAX_DIGITS; i++) {
         spigot_next(&s);
-        delay(); /* handicap; remove for full speed */
+
+        printf("%s\n", outbuf);
+        delay();
     }
 
     spigot_flush(&s);
-
-    printf("\n\nDone.\n");
 
     return 0;
 }
