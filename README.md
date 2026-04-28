@@ -22,8 +22,8 @@ If anyone wants to write any other cool math things, it would be greatly appreci
  - `pi` - Computes digits of pi up to the number given
  - `pibench` - CPU benchmark using pi. Requires the `time`command.
  - `pi_stream` - Prints each digit of pi for each new line there is another digit. Bourne compatible shell script that only requires the `expr` command.
- - (SOON) `even` - Counts up even numbers
- - (SOON) `odd` - Counts up odd numbers
+ - `even` - Counts up even numbers
+ - `odd` - Counts up odd numbers
  - (SOON) `fibbonachi` - Computes the Fibbonachi Sequence
  - (SOON) `goldenratio` - Computes the Golden Ratio
  - (SOON) `sqrt` - Square root of the given number
