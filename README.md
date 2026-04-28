@@ -20,7 +20,7 @@ If anyone wants to write any other cool math things, it would be greatly appreci
 
  - `prime` - Computes prime numbers one after the other
  - `pi` - Computes digits of pi up to the number given
- - `pibench` - CPU benchmark using pi. In development.
+ - `pibench` - CPU benchmark using pi. Requires the `time`command.
  - `pi_stream` - Prints each digit of pi for each new line there is another digit. Bourne compatible shell script that only requires the `expr` command.
  - (SOON) `even` - Counts up even numbers
  - (SOON) `odd` - Counts up odd numbers
